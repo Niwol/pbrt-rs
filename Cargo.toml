@@ -1,0 +1,14 @@
+[package]
+name = "pbrt-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+path = "src/cmd/pbrt.rs"
+name = "pbrt"
+
+[features]
+gpu_render = []
+float_as_double = []
+
+[dependencies]
